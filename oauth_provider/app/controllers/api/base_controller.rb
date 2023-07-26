@@ -8,16 +8,6 @@ module API
 
     private
 
-    def set_current_user
-      Current.user = current_resource_owner
-    end
-
-    def head_if_no_current_user
-      return if Current.user
-
-      head :no_content
-    end
-
     def render_success
       render json: { messages: @messages }
     end

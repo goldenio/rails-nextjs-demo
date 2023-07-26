@@ -6,4 +6,14 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  namespace :api do
+    namespace :frontend do
+      resources :users, only: :index
+    end
+
+    namespace :backend do
+      resources :users, only: :index
+    end
+  end
 end
