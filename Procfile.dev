@@ -1,0 +1,2 @@
+rails: cd oauth_provider && bin/rails s -p 3000
+nextjs: cd nextjs-application && yarn dev -p 4000
