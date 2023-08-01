@@ -1,5 +1,9 @@
 # Rails + Next.js
 
+Talk in [COSCUP 2023 Ruby track](https://volunteer.coscup.org/schedule/2023/session/LN8PAN)
+
+Slide in [Speaker Deck](https://speakerdeck.com/tsechingho/gao-dong-react-he-rails-zuo-wei-qian-hou-duan-fen-li-huo-ban-de-ma-fan-shi)
+
 ## 0. Environment
 
 ```sh
