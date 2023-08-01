@@ -49,6 +49,9 @@ const Frontend = () => {
         <p>API response:</p>
         <p>{response}</p>
       </div>
+      <div className='w-1/2 h-1/2 m-4'>
+        <img src="frontend.png" />
+      </div>
     </div>
   )
 }
