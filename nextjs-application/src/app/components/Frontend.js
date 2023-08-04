@@ -42,6 +42,7 @@ const Frontend = () => {
     <div className='p-4'>
       <Nav />
       <div className='my-4'>(A) 前端換 accessToken, 前端拿資料</div>
+      <p>不建議這樣做，因為 client_id 和 client_secret 直接暴露在前端中，非常不安全。</p>
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4" onClick={handleClick}>
         Button
       </button>
